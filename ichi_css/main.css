@@ -1,0 +1,140 @@
+body {
+  height: 1040px;
+  overflow: hidden;
+  background-color: #999;
+}
+a {
+  text-decoration: none;
+}
+
+.slide-container {
+  position: relative;
+}
+.slide-container .slide-group {
+  position: relative;
+}
+.slide-container .slide-group .slide {
+  float: left;
+  width: 100%; 
+}
+.slide-container .slide-group .hanwha .video {
+    position: relative;
+    height: 1040px;
+    overflow: hidden;
+  }
+  .slide-container .slide-group .hanwha .video .video-area {
+    width: 1940px;
+    background-color: orange;
+    position: absolute;
+    left: 50%;
+    margin-left: calc(1920px / -2);
+    top: 50%;
+    margin-top: calc(1920px * 9 / 16 / -2);
+  }
+  .slide-container .slide-group .hanwha .video .video-area::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;  
+  }
+  .slide-container .slide-group .hanwha .video .video-area #play {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .slide-container .slide-group .hanwha .video .video-cover {
+    background-color: rgba(red, green, blue, alpha);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .hanwha .video .video-cover .move {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .hanwha .video .video-cover .move h1 a{
+    font-size: 42px;
+    color: #fff;
+  }  
+  
+  
+.slide-container .slide-group .fuglen {
+  
+}
+.slide-container .slide-group .fuglen .video {
+  position: relative;
+  height: 840px;
+  overflow: hidden;
+}
+.slide-container .slide-group .fuglen .video .video-area {
+  width: 1940px;
+  background-color: orange;
+  position: absolute;
+  left: 50%;
+  margin-left: calc(1920px / -2);
+  top: 50%;
+  margin-top: calc(1920px * 9 / 16 / -2);
+}
+.slide-container .slide-group .fuglen .video .video-area::before {
+  content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%; 
+}
+.slide-container .slide-group .fuglen .video .video-area #player {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slide-container .slide-group .fuglen .video .video-cover {
+  background-color: rgba(red, green, blue, alpha);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.fuglen .video .video-cover .move {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.fuglen .video .video-cover .move h1 a{
+  font-size: 42px;
+  color: #fff;
+}  
+
+
+.btn-group .prev {
+  width: 80px;
+  height: 80px;
+  background-image: url("../ichi_img/btn_next.png");
+  transform: rotate(180deg);
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+  top: 400px;
+}
+.btn-group .next {
+  width: 80px;
+  height: 80px;
+  background-image: url("../ichi_img/btn_next.png");
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  top: 400px;
+}

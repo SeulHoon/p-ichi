@@ -1,0 +1,126 @@
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+/* HEADER */
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  background-color: #000;
+}
+header .inner {
+  height: 80px;
+}
+header .logo {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 20px;  
+}
+header .logo img {
+  width: 140px;
+  height: 40px;
+}
+header .main-menu {
+  position: absolute;
+  top: 50%;
+  left: 200px;
+  transform: translate(0, -50%);
+  z-index: 1;
+  display: flex;
+}
+header .main-menu ul {
+  padding: 15px;
+}
+
+header .sub-menu {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(0, -50%);
+  display: flex;
+}
+header .sub-menu ul {
+  padding: 7px;
+  font-weight: 700;
+}
+header .sub-menu ul:nth-child(3) {
+  margin-right: 30px;
+}
+header .sub-menu ul:nth-child(2)::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 35px;  
+  width: 2px;
+  height: 15px;
+  background-color: #fff;
+}
+header .sub-menu .sns {
+  
+}
+header .sub-menu .sns a {
+  padding: 5px;
+}
+
+/* FOOTER */
+footer {
+  color: #999;
+  margin-top: 40px;
+}
+footer .inner {
+  position: relative;  
+  border: 3px solid #999;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  height: 220px;
+  
+}
+footer .inner .logo {
+  position: absolute;
+  top: 20px;
+  left: 91px;
+}
+footer .inner .logo img {
+  width: 210px;
+  height: 60px;
+}
+footer .inner .address {
+  position: absolute;
+  top: 100px;
+  left: 91px;
+}
+footer .inner .tel-num {
+  position: absolute;
+  top: 130px;
+  left: 91px;
+}
+footer .inner .footer-menu {
+  position: absolute;
+  left: 91px;
+  top: 170px;
+}
+footer .inner .footer-menu ul {
+  display: flex;
+}
+footer .inner .footer-menu li {
+  margin-right: 19px;
+}
+footer .inner .footbadge {
+  position: absolute;
+  right: 0;
+  display: none;
+}
+footer .inner .copyright {
+  position: absolute;
+  right: 91px;
+  top: 170px;
+}

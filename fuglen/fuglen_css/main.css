@@ -1,0 +1,299 @@
+
+  /* INDEX-HEADER */
+  header a {
+    color: #fff;
+  }
+  header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+  }
+  header .header {
+    height: 100px;
+    background-color: inherit;
+  }
+  header .header .main-menu {
+    position: absolute;
+    top: calc(50% - 24px);
+  }
+  header .header .main-menu ul.menu {
+    padding-left: 80px;
+  }
+  header .header .main-menu ul.menu li {
+    float: left;
+    text-align: center;
+    padding: 20px;
+  }
+  header .header .main-menu ul.menu span {
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 14px);
+  }
+  
+  header .header .logo{
+    width: 120px;
+    height: 75px; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  header .header .logo img {
+    width:120px;
+  }
+  
+  header .sub-menu {
+    position: absolute;
+    right: 0;
+    top: calc(50% - 24px);
+  }
+  header .header .sub-menu ul.menu {
+    padding-right: 80px;
+  }
+  header .header .sub-menu ul.menu li {
+    float: left;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+
+
+/* VISUAL */
+.visual {
+  background-image: url("../fuglen_img/main_visual.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+}
+.visual .inner {
+  height: 700px;
+}
+.visual .inner .info {
+  position: absolute;
+  bottom: 200px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+.visual .inner .btn {
+  position: absolute;
+  bottom: 135px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.visual h2,
+.visual h3 {
+  color: #fff;
+}
+.visual h2 {
+  font-size: 40px;
+}
+
+/* PRODUCTS */
+.products {
+
+  
+}
+.products .swiper-container{
+
+}
+.products .swiper-container .swiper-wrapper {
+
+}
+.products .coffee {
+  position: relative;
+  height: 550px;
+}
+.products .coffee .btn{
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.products .title {
+  
+}
+.products .coffee .coffees {
+  display: flex;
+  justify-content: center;
+
+  height: 300px;
+  
+}
+.products .coffee .coffees .coffee0 {
+  width: 270px;
+
+  margin: 11px;
+  position: relative;
+}
+.products .coffee .coffees .coffee0 .coffee-subs {
+  color: #000;
+  position: absolute;
+  padding: 5px;
+}
+.products .coffee .coffees .coffee0 .sub01 {
+  left: 25px;
+}
+.products .coffee .coffees .coffee0 .sub02 {
+  font-size: 12px;
+  left: 10px;
+}
+.products .coffee .coffees .coffee0 .sub03 {
+  left: 15px;
+}
+.products .coffee .coffees .coffee0 .sub04 {
+  font-size: 14px;
+  left: 5px;
+}
+
+
+.products .coffee .coffees .coffee0 .coffee01 {
+ 
+}
+.products .coffee .coffees .coffee0 .coffee02 {
+  
+}
+.products .coffee .coffees .coffee0 .coffee03 {
+  
+}
+.products .coffee .coffees .coffee0 .coffee04 {
+
+}
+
+
+
+.products .equipment {
+  display: none;
+}
+/* ABOUT */
+.aboutus {
+  height: 350px;
+  display: flex;
+  
+  align-items: center;
+  
+}
+.aboutus .inner {
+  justify-content: center;
+  display: flex;
+  width: 1200px;
+  height: 250px;
+  align-items: center;
+  
+  left: calc(50% - 565px);
+}
+.aboutus .inner .about-img {
+  align-items: center;
+  border: 2px solid #000;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+  padding-right: 70px;
+}
+.aboutus .inner .about-subs {
+  margin-left: 70px; 
+  
+  width: 560px;
+}
+.aboutus .inner .about-subs p {
+ 
+}
+
+
+/* POSTER */
+.poster {
+  position: relative;
+  
+  height: 550px;  
+}
+.poster .poster-inner {
+  
+}
+.poster .posters {
+  display: flex;
+  justify-content: center;
+  
+}
+.poster .posters .poster0 {
+  margin: 15px;
+}
+.poster .posters .poster0 .poster01{
+
+}
+.poster .posters .poster0 .poster-subs{
+  text-align: center;
+  margin-top: 5px;
+}
+.poster .btn{
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+
+/* SINGUP */
+.signup {
+  height: 245px;
+  background-color: #464a2f;
+}
+.signup .inner {
+  position: relative;
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.signup .inner .signup-main {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.signup .inner .signup-main h2,
+.signup .inner .signup-main h3 {
+  color: #fff;
+}
+.signup .inner .signup-main h2 {
+  margin-top: 30px;
+  font-size: 32px;
+}
+.signup .inner .signup-main h3 {
+  margin-top: 15px;
+  font-weight: 100;
+}
+
+.signup .inner .signup-main .signup-input-btn {
+  position: relative;
+  top: 45px;
+  width: 400px;
+  height: 45px;
+  border: 1px solid #000;
+  background-color: inherit;
+}
+.signup .inner .signup-main .signup-input {
+  background-color: inherit;
+  width: 100%;
+  height: 45px;
+  color: #fff;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+.signup .inner .signup-main .signup-submit {
+  position: absolute;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  background-color: inherit;
+  
+}
+.signup .inner .signup-main .signup-submit span {
+  font-weight: 300;
+  color: #fff;
+}

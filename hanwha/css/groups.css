@@ -1,0 +1,107 @@
+.main {
+  position: relative;
+  top: 80px;
+  width: 100%;
+  height: 800px;
+  
+ 
+}
+.main .groups-visual {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  background-image: url("../img/groups_visual.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 110%;  
+}
+.main .groups-visual .visual-img {
+    
+}
+.main .groups-visual .visual-title {
+  position: absolute;
+  bottom: 88px;
+  left: 119px;
+}
+.main .groups-visual .visual-title h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.main .groups-area {
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  display: flex;
+}
+.main .groups-area h3 {
+  color: #fff;
+  font-weight: 700;
+  
+}
+.main .groups-area .groups-products {
+  margin-left: 140px;
+}
+.main .groups-area .groups-products .products-title{
+  border: 2px solid #888;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding-bottom: 10px;
+}
+.main .groups-area .groups-products .products-list{
+  display: flex;
+  
+}
+.main .groups-area .groups-products .products-list ul {
+  color: #999;
+}
+.main .groups-area .groups-products .products-list li {
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.main .groups-area .groups-finance {
+  margin-left: 50px;
+}
+.main .groups-area .groups-finance .finance-title{
+  border: 2px solid #888;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding-bottom: 10px;
+}
+.main .groups-area .groups-finance .finance-list{
+  display: flex;
+  
+}
+.main .groups-area .groups-finance .finance-list ul {
+  color: #999;
+}
+.main .groups-area .groups-finance .finance-list li {
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.main .groups-area .groups-service {
+  margin-left: 50px;
+}
+.main .groups-area .groups-service .service-title{
+  border: 2px solid #888;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding-bottom: 10px;
+}
+.main .groups-area .groups-service .service-list{
+  display: flex;
+  
+}
+.main .groups-area .groups-service .service-list ul {
+  color: #999;
+}
+.main .groups-area .groups-service .service-list li {
+  margin-top: 10px;
+  margin-right: 30px;
+}

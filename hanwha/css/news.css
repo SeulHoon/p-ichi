@@ -1,0 +1,232 @@
+.main {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 1150px; 
+}
+.main .list-visual {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/groups_visual.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 110%;  
+}
+.main .list-visual .visual-img {
+    
+}
+.main .list-visual .visual-title {
+  position: absolute;
+  bottom: 88px;
+  left: 119px;
+}
+.main .list-visual .visual-title h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+.main .wrap {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  top: 500px;
+}
+.main .wrap .filter {
+  position: absolute;
+  left: 50%;
+  transform: translate(-81% ,0);
+   
+}
+main .filter .row-hr {
+  
+}
+.main .filter .row-hr .item-row {
+  display: flex;
+}
+.main .filter .row-hr .item-row .datepick {
+  width: 165px;
+}
+.main .filter .row-hr .item-row .datepick input {
+  width: 100%;
+  height: 50px;
+  padding: 0 0px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  line-height: 50px;  
+}
+
+
+
+.main .filter .row-hr .item-row .txt {
+  position: relative;
+  width: 30px;
+  height: 48px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.main .filter .sch {
+  width: 340px;
+  margin-left: 10px;
+  
+}
+.main .filter .sch input {
+  width: 100%;
+  height: 50px;
+  padding: 0 0px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  line-height: 50px;
+}
+.main .filter .sch button {
+  border: 0 none;
+  border-radius: 0;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.main .filter .sch button::after {
+  content: "";
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  background: url("../img/btn_search.png") no-repeat center;
+  background-size: cover;
+}
+
+
+/* LIST */
+.main .list {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.main .list .th-wrap {
+  height: 58px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  display: flex;
+}
+.main .list .th-wrap .col{
+  color: #808080;
+  font-size: 16px;
+  line-height: 56px;
+  text-align: center;
+}
+.main .list .th-wrap .col:nth-child(1) {
+  width: 150px;
+}
+.main .list .th-wrap .col:nth-child(2) {
+  width: 800px;
+  text-align: left;
+  padding-left: 20px;
+}
+.main .list .th-wrap .col:nth-child(3) {
+  width: 150px;
+  padding-right: 20px;
+}
+.main .list ul {
+  border-bottom: 1px solid #666;  
+}
+.main .list li {
+  border-top: 1px solid #666;
+}
+.main .list li:hover div{
+  color: #fff;
+}
+.main .list li a {
+  width: 100%;
+  min-height: 58px;
+  display: flex;
+}
+.main .list li .col{
+  color: #808080;
+  font-size: 16px;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 56px;
+}
+.main .list li .col:nth-child(1) {
+  text-align: center;
+  width: 150px;
+}
+.main .list li .col:nth-child(2) {
+  width: 800px;
+  padding-left: 20px;
+}
+.main .list li .col:nth-child(3) {
+  width: 150px;
+}
+
+/* PAGING */
+.paging-area {
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+  top: 640px;
+}
+.paging-area .paging { 
+  display: flex;
+  padding:0 108px;
+  text-align: center;
+  justify-content: center;
+}
+.paging-area .paging .btn-page {
+  background-color: transparent;
+  width: 38px;
+  height: 38px;
+  cursor: default;
+}
+
+.paging-area .paging .prev {
+  
+}
+.paging-area .paging .prev::after {
+  background-image: url("../img/btn_page_next.png");
+  transform: rotate(180deg);
+  content: "";
+  position: absolute;
+  left: 45%;
+  top: 50%;
+    width: 38px;
+    height: 38px;
+    margin: -19px 0 0 -19px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.paging-area .paging .next::after {
+  background-image: url("../img/btn_page_next.png");
+  
+  content: "";
+  position: absolute;
+  left: 55%;
+  top: 50%;
+    width: 38px;
+    height: 38px;
+    margin: -19px 0 0 -19px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.paging-area .paging .go-num a {
+  display: inline-block;
+    position: relative;
+    margin-left: -3px;
+    padding: 0 10px;
+    color: #808080;
+    line-height: 38px;
+    text-align: center;
+}
