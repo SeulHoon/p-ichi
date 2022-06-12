@@ -97,18 +97,37 @@
 
 /* PRODUCTS */
 .products {
-
+  height: 550px;
   
+  overflow: hidden;
+  position: relative;
 }
 .products .swiper-container{
-
+  width: 1420px;
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 710px);
+  
+}  
+.products .swiper-container.hide {
+  height: 0;
 }
 .products .swiper-container .swiper-wrapper {
-
+  
 }
+.products .swiper-container .swiper-slide {
+  position: relative;
+  opacity: .01;
+  transition: opacity 1s;
+}
+.products .swiper-container .swiper-slide-active {
+  opacity: 1;
+}
+
 .products .coffee {
   position: relative;
   height: 550px;
+  
 }
 .products .coffee .btn{
   position: absolute;
@@ -132,11 +151,13 @@
 
   margin: 11px;
   position: relative;
+  
 }
 .products .coffee .coffees .coffee0 .coffee-subs {
   color: #000;
   position: absolute;
   padding: 5px;
+  
 }
 .products .coffee .coffees .coffee0 .sub01 {
   left: 25px;
@@ -149,29 +170,81 @@
   left: 15px;
 }
 .products .coffee .coffees .coffee0 .sub04 {
-  font-size: 14px;
-  left: 5px;
+  left: 10px;
 }
-
-
-.products .coffee .coffees .coffee0 .coffee01 {
- 
-}
-.products .coffee .coffees .coffee0 .coffee02 {
-  
-}
-.products .coffee .coffees .coffee0 .coffee03 {
-  
-}
-.products .coffee .coffees .coffee0 .coffee04 {
-
-}
-
-
 
 .products .equipment {
-  display: none;
+  position: relative;
+  height: 550px;
+  
 }
+.products .equipment .btn {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.products .equipment .equip {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+.products .equipment .equip .equip0{
+  width: 270px;
+  margin: 17px;
+  position: relative;
+}
+.products .equipment .equip .equip0 .equip-subs {
+  color: #000;
+  position: absolute;
+  padding: 5px;
+}
+.products .equipment .equip .equip0 .sub01 {
+  left: 35px;
+}
+.products .equipment .equip .equip0 .sub02 {
+  left: 45px;
+}
+.products .equipment .equip .equip0 .sub03 {
+  left: 65px;
+}
+.products .equipment .equip .equip0 .sub04 {
+  left: 75px;
+}
+
+.products .swiper-prev,
+.products .swiper-next {
+    width: 42px;
+    height: 42px;
+    border: 0;
+    border-radius: 50%;
+    position: absolute;
+    top: 260px;
+    z-index: 1;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;   
+}
+.products .swiper-prev {
+    left:50%;
+    margin-left: -660px;
+  }
+   .products .swiper-next {
+    right:50%;
+    margin-right: -660px;
+  }
+   .products .swiper-prev:hover,
+   .products .swiper-next:hover {
+    background-color: #b5a462;
+    color: #fff;
+  } 
+
+
+
 /* ABOUT */
 .aboutus {
   height: 350px;
