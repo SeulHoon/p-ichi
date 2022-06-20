@@ -69,16 +69,51 @@ a {
 }
 
 .groups {
-  height: 910px;
+  height: 800px;
+  position: relative;
 }
-.groups .groups-inner {
+.groups .swiper-container {
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.groups .swiper-container .swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;  
+}
+.groups .swiper-container .swiper-wrapper .swiper-slide {
+  
+}
+.groups .swiper-container .swiper-wrapper .swiper-slide .slide {
+  width: 500px;
+  height: 500px;
+  
+}
+.groups .swiper-container .swiper-wrapper .swiper-slide .production {
+  background-color: red;
+  
+}
+.groups .swiper-container .swiper-wrapper .swiper-slide .finance {
+  background-color: orange;
+}
+.groups .swiper-container .swiper-wrapper .swiper-slide .service {
+  background-color: yellow;
+}
+.groups .swiper-container .swiper-wrapper .swiper-slide .global {
+  background-color: green;
+}
+.groups .swiper-container .swiper-wrapper .swiper-slide .etc {
+  background-color: blue;
+}
+.groups .btn {
+  position: absolute;
+  bottom: 0;
+}
 
-}
-.groups .groups-inner div.group {
-  width: 545px;
-  height: 643px;
-  background-color: #ff6600;
-}
 
 
 .carbon {
