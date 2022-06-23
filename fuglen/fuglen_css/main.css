@@ -7,7 +7,7 @@
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 9;
+  
   }
   header .header {
     height: 100px;
@@ -57,6 +57,12 @@
     text-align: center;
     padding: 10px;
   }
+.header.header-active {
+  background-color: #fff;
+}
+.header.header-active a {
+  color: #000;
+}
 
 
 
@@ -86,6 +92,13 @@
   left: 0;
   right: 0;
   margin: auto;
+}
+.visual .inner .btn:hover {
+  background-color: #f5a800;
+  color: #fff;
+  border: 1px solid #f5a800;
+  transform: scale(1.1);
+  font-weight: 900;
 }
 .visual h2,
 .visual h3 {
@@ -239,7 +252,7 @@
   }
    .products .swiper-prev:hover,
    .products .swiper-next:hover {
-    background-color: #b5a462;
+    background-color: #f5a800;
     color: #fff;
   } 
 

@@ -29,6 +29,13 @@ ul, li {
   display: block;
   transition: .4s;
 }
+.btn:hover {
+  background-color: #fff;
+  color: #f5a800;
+  border: 1px solid #f5a800;
+  transform: scale(1.1);
+  font-weight: 900;
+}
 .inner {
   position: relative;
 }
