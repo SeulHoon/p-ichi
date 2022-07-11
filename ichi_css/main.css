@@ -1,7 +1,7 @@
 body {
   height: 1040px;
   overflow: hidden;
-  background-color: #999;
+  background-color: #fff;
 }
 a {
   text-decoration: none;
@@ -76,7 +76,7 @@ a {
 }
 .slide-container .slide-group .fuglen .video .video-area {
   width: 1940px;
-  background-color: orange;
+  background-color: fff;
   position: absolute;
   left: 50%;
   margin-left: calc(1920px / -2);
